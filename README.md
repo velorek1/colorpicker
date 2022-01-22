@@ -24,7 +24,6 @@ Graph mode:
 * gfxn.pas >> Graphic Unit to add buttons, textbox.
 * gfwin.pas >> Graphic Unit to create windows.
 * hex2bin.pas >> Unit to handle different operations with hexadecimals.
-* gaedch2.pas >> Graphic Unit that creates a dynamic list to select different options with mouse control.
 
 Programs:
 =========
