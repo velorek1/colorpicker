@@ -1,6 +1,6 @@
 Program colorpicker;
 (* TrueColor COLOR PICKER *)
-Uses gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin;
+Uses cthreads,gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin;
 
 type
           cell = record
@@ -119,7 +119,8 @@ procedure init_screen;
 var a,b:integer;
 begin
     //Fullscreengraph:=true;
-    a:=detect;
+    a:=D16bit;
+    b:=m1024x768;
     initgraph(a,b,'');
     fondo(dgreyc);
     cleardevice;
