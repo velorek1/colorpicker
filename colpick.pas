@@ -1,6 +1,7 @@
 Program colorpicker;
 (* TrueColor COLOR PICKER *)
-Uses cthreads,gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin;
+Uses    {$ifdef unix}cthreads{$endif},
+gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin;
 
 type
           cell = record
