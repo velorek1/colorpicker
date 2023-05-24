@@ -1,6 +1,6 @@
 Program colorpicker;
 (* TrueColor COLOR PICKER *)
-Uses    {$ifdef unix}cthreads{$endif},
+Uses    {$ifdef unix}cthreads,{$endif}
 gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin;
 
 type
